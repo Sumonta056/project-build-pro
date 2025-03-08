@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0.5rem 0;
+}
+
+section#projects {
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.project {
+  background-color: #eaeaea;
+  padding: 1rem;
+  border-radius: 5px;
+  flex: 1 1 calc(50% - 1rem);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+  margin-top: 0;
+}
+
+.project a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+/* filepath: c:\Users\sumon\Downloads\project-build-pro\styles.css */
+#contact {
+  background-color: #f9f9f9;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#contact h2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
